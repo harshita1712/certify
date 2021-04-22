@@ -175,7 +175,6 @@ font-size: 16px;
 font-weight: 400;
 margin-bottom: 30px;
 }
-
 .btn-2{
   background-color: #864000;
   padding: 12px 30px;
@@ -189,7 +188,6 @@ margin-bottom: 30px;
   font-weight: 400;
 }
 .btn-2:focus{
-  box-shadow: #f7f7f7;
   box-shadow: 1px 1px 6px 1px #d44000b6;
 }
 
