@@ -1,0 +1,117 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+
+body{
+  font-family: "Montserrat",sans-serif;
+   overflow-x: hidden;
+   background-color: #ffffff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline:none!important;
+}
+
+img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.section-padding{
+  margin-top: 10px;
+  padding-top: 30px;
+}
+
+/* Home Section*/
+.landing-text {
+
+ justify-content: center;
+ 
+}
+.stroke {
+  color: #013220;
+  -webkit-text-fill-color: #fff;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
+  text-shadow: 4px 4px 0 #24dd61,-1px -1px 0 #24dd61,1px -1px 0 #24dd61,-1px 1px 0 #24dd61,1px 1px 0 #24dd61
+
+}
+
+.non-stroke {
+  color: #fff;
+  -webkit-text-fill-color: #24dd61;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000
+}
+
+.home{
+  min-height: 100vh;
+  padding: 100px 0;
+}
+
+.home-text h1{
+  
+  font-weight: 600;
+  font-size: 60px;
+ margin: 0 0 20px;
+}
+
+.home-text p{
+  font-size: 19px;
+  line-height: 28px;
+  color:#000000;
+  font-weight: 300;
+  margin: 0;
+}
+.home .home-btn{
+  margin-top: 40px;
+}
+.btn-1{
+  background-color: #24dd61;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 18px;
+  text-transform: capitalize;
+  transition: all 0.5 ease;
+  box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.308);
+  font-weight: 500;
+}
+.btn-1:focus{
+  box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.308);
+}
+
+.btn-1:hover{
+  color: #24dd62c4;
+  background-color: #fff;
+  box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.308);
+}
+
+@media(max-width: 991px){
+  .home{
+      
+      padding-top: 50px;
+    }
+
+.home-text h1{
+  font-size: 67px;
+}
+
+}
+
+@media(max-width: 767px){
+  .home{
+      
+      padding: 50px 0;
+    }
+  .home-text h1{
+      font-size: 56px;
+      
+  }
+
+  .home-text p{
+      font-size: 16px;
+     
+  }
+}
