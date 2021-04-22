@@ -185,7 +185,7 @@ margin-bottom: 30px;
   font-size: 16px;
   text-transform: capitalize;
   transition: all 0.5 ease;
-  box-shadow: var(--shadow-black-300);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
   font-weight: 400;
 }
 .btn-2:focus{
@@ -195,7 +195,7 @@ margin-bottom: 30px;
 
 .btn-2:hover{
   color: #864000;
-  background-color: var(--black-100);
+  background-color: #f7f7f7ee;
   box-shadow: 1px 1px 6px 1px #d44000b6;
 }
 
